@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammed Aşkın | Kişisel Web Sitesi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animasyonlu Arka Plan -->
+    <canvas id="matrix-canvas"></canvas>
+    
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-content fade-in">
+                <div class="avatar-container">
+                    <div class="avatar">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-code">
+                            <polyline points="16 18 22 12 16 6"></polyline>
+                            <polyline points="8 6 2 12 8 18"></polyline>
+                        </svg>
+                    </div>
+                </div>
+                <h1 class="hero-title">
+                    Merhaba, Ben <span class="gradient-text">Muhammed Aşkın</span>
+                </h1>
+                <p class="hero-subtitle" id="typing-text">Bilgisayar Programcısı & Yazılım Geliştiricisi</p>
+                <p class="hero-description">
+                    Teknolojiyi, gelişimi ve öğrenmeyi seven bir yazılım tutkunu
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn-primary">İletişime Geç</a>
+                    <a href="#about" class="btn-secondary">Hakkımda</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hakkımda kısmı -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-content scroll-animate">
+                <h2 class="section-title">Hakkımda</h2>
+                <div class="about-card">
+                    <p class="about-text">
+                        Ben Muhammed Aşkın, teknolojiyi, gelişimi ve öğrenmeyi seven biriyim. 
+                        Yazılım geliştirme dünyasında kendimi sürekli geliştirmeye çalışan, 
+                        yeni teknolojileri öğrenmeye hevesli bir öğrenciyim.
+                    </p>
+                    <p class="about-text">
+                        Munzur Üniversitesi Bilgisayar Programcılığı bölümünde eğitim almaktayım. 
+                        Web geliştirme, masaüstü uygulamalar ve oyun geliştirme alanlarında 
+                        kendimi geliştirmeye devam ediyorum.
+                    </p>
+                    <p class="about-text">
+                        Hedefim, modern ve kullanıcı dostu yazılımlar geliştirerek teknoloji 
+                        dünyasına katkıda bulunmak ve kariyerimde başarılı bir yazılım 
+                        geliştiricisi olmaktır.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beceriler kısmı -->
+    <section id="skills" class="section section-dark">
+        <div class="container">
+            <div class="section-content scroll-animate">
+                <h2 class="section-title">Beceriler & Teknolojiler</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <span class="skill-name">HTML</span>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" data-width="85" style="background-color: #e34c26;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <span class="skill-name">CSS</span>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" data-width="80" style="background-color: #264de4;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <span class="skill-name">C++</span>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" data-width="75" style="background-color: #00599c;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <span class="skill-name">C#</span>
+                            <span class="skill-percent">70%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" data-width="70" style="background-color: #68217a;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- İlgi Alanları kısmı -->
+    <section id="interests" class="section">
+        <div class="container">
+            <div class="section-content scroll-animate">
+                <h2 class="section-title">İlgi Alanlarım</h2>
+                <div class="interests-grid">
+                    <div class="interest-card">
+                        <div class="interest-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="16 18 22 12 16 6"></polyline>
+                                <polyline points="8 6 2 12 8 18"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="interest-title">Web Geliştirme</h3>
+                        <p class="interest-desc">Modern web uygulamaları</p>
+                    </div>
+                    <div class="interest-card">
+                        <div class="interest-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                                <line x1="8" y1="21" x2="16" y2="21"></line>
+                                <line x1="12" y1="17" x2="12" y2="21"></line>
+                            </svg>
+                        </div>
+                        <h3 class="interest-title">Masaüstü Uygulamalar</h3>
+                        <p class="interest-desc">Güçlü desktop yazılımlar</p>
+                    </div>
+                    <div class="interest-card">
+                        <div class="interest-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="6" y1="2" x2="6" y2="6"></line>
+                                <line x1="18" y1="2" x2="18" y2="6"></line>
+                                <line x1="6" y1="22" x2="6" y2="18"></line>
+                                <line x1="18" y1="22" x2="18" y2="18"></line>
+                                <rect x="6" y="6" width="12" height="12"></rect>
+                            </svg>
+                        </div>
+                        <h3 class="interest-title">Oyun Geliştirme</h3>
+                        <p class="interest-desc">Eğlenceli oyun projeleri</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Eğitim kısmı -->
+    <section id="education" class="section section-dark">
+        <div class="container">
+            <div class="section-content scroll-animate">
+                <h2 class="section-title">Eğitim</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                            </svg>
+                        </div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Munzur Üniversitesi</h3>
+                            <p class="timeline-subtitle">Bilgisayar Programcılığı - 1. Sınıf</p>
+                            <p class="timeline-date">Güncel</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                            </svg>
+                        </div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Selahaddin Eyyubi Meslek Lisesi</h3>
+                            <p class="timeline-subtitle">Bilgisayar Sertifikası</p>
+                            <p class="timeline-date">2024</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- İletişim kısmı-->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-content scroll-animate">
+                <h2 class="section-title">İletişim</h2>
+                <div class="contact-grid">
+                    <a href="mailto:askinmuhammed611@gmail.com" class="contact-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-icon">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        <h3 class="contact-title">E-posta</h3>
+                        <p class="contact-info">askinmuhammed611@gmail.com</p>
+                    </a>
+                    <a href="tel:05352752856" class="contact-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-icon">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                        <h3 class="contact-title">Telefon</h3>
+                        <p class="contact-info">0535 275 28 56</p>
+                    </a>
+                    <a href="https://www.instagram.com/muhammed_a630/" target="_blank" rel="noopener noreferrer" class="contact-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-icon">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                        <h3 class="contact-title">Instagram</h3>
+                        <p class="contact-info">@muhammed_a630</p>
+                    </a>
+                    <a href="https://www.linkedin.com/in/muhammed-aşkın-609957252" target="_blank" rel="noopener noreferrer" class="contact-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-icon">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                        <h3 class="contact-title">LinkedIn</h3>
+                        <p class="contact-info">Muhammed Aşkın</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">© 2025 Muhammed Aşkın. Tüm hakları saklıdır.</p>
+            <p class="footer-subtext">❤️ ile kodlandı</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
